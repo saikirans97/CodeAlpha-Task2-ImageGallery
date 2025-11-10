@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery - CodeAlpha Task2</title>
+  <link rel="stylesheet" href="gallery-style.css">
+</head>
+<body>
+  <header>
+    <h1>Image Gallery</h1>
+    <div class="filter-menu">
+      <button data-filter="all" class="active">All</button>
+      <button data-filter="nature">Nature</button>
+      <button data-filter="urban">Urban</button>
+      <button data-filter="abstract">Abstract</button>
+    </div>
+  </header>
+
+  <main class="gallery">
+    <!-- Repeat gallery item with categories -->
+    <div class="gallery-item" data-category="nature">
+      <img src="images/nature1.jpg" alt="Nature 1">
+    </div>
+    <div class="gallery-item" data-category="nature">
+      <img src="images/nature2.jpg" alt="Nature 2">
+    </div>
+    <div class="gallery-item" data-category="urban">
+      <img src="images/urban1.jpg" alt="Urban 1">
+    </div>
+    <div class="gallery-item" data-category="urban">
+      <img src="images/urban2.jpg" alt="Urban 2">
+    </div>
+    <div class="gallery-item" data-category="abstract">
+      <img src="images/abstract1.jpg" alt="Abstract 1">
+    </div>
+    <div class="gallery-item" data-category="abstract">
+      <img src="images/abstract2.jpg" alt="Abstract 2">
+    </div>
+    <div class="gallery-item" data-category="nature">
+      <img src="images/nature3.jpg" alt="Nature 3">
+    </div>
+    <div class="gallery-item" data-category="urban">
+      <img src="images/urban3.jpg" alt="Urban 3">
+    </div>
+    <div class="gallery-item" data-category="abstract">
+      <img src="images/abstract3.jpg" alt="Abstract 3">
+    </div>
+  </main>
+
+  <!-- Lightbox/Modal -->
+  <div class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-img" src="" alt="Expanded Image">
+    <div class="navigation">
+      <button class="prev">&lt;</button>
+      <button class="next">&gt;</button>
+    </div>
+  </div>
+
+  <script src="gallery-script.js"></script>
+</body>
+</html>
