@@ -14,7 +14,7 @@ It was built as part of the **CodeAlpha Internship Program**.
 - JavaScript
 
 ### 🖼️ Preview
-![Image Gallery Screenshot](Image Gallery.png)
+![Image Gallery Screenshot](Image_Gallery.png)
 
 ## 👩‍💻 Created by
 **Sai Shriram**  
