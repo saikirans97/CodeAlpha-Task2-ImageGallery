@@ -11,7 +11,10 @@ It was built as part of the **CodeAlpha Internship Program**.
 ## 🧩 Technologies Used
 - HTML5  
 - CSS3  
-- JavaScript  
+- JavaScript
+
+### 🖼️ Preview
+![Image Gallery Screenshot](calculator.png)
 
 ## 👩‍💻 Created by
 **Sai Shriram**  
